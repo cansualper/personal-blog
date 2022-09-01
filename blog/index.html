@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+    </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">C</div>
+        <div class="menu">
+          <img src="" class="logo" alt="">
+          <ul class="navlinks" id="menuList">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#html-part">HTML</a></li>
+            <li><a href="#css-part">CSS</a></li>
+            <li><a href="#js-part">JavaScript</a></li>
+            <li><a href="#about-part">About</a></li>
+          </ul>
+          <img src="C:\Users\cansu\Desktop\blog\images\menu-icon.png" class="menu-icon" alt="" onclick="toggleMenu()">
+        </div>
+      </div>
+
+      <div class="home" id="home">
+        <div class="home-text">
+          <h1>My Blog</h1>
+          <p>Web development is really popular recently. HTML, CSS and JavaScript are the main components of Web Dev. If you want to learn about them more, you are in the right place!</p>
+          <button class="home-btn" type="button" name="button"><a href="#card-part">Learn More</a></button>
+        </div>
+        <div class="image">
+          <img src="C:\Users\cansu\Desktop\blog\images\home.svg" alt="">
+        </div>
+      </div>
+
+      <div class="clock">
+          <span id="hours"></span>
+          <span>:</span>
+          <span id="minutes"></span>
+          <span>:</span>
+          <span id="seconds"></span>
+      </div>
+
+    </div>
+    <div class="card-part" id="card-part">
+    <h1 class="main-h1">Let's learn more about HTML, CSS and JavaScript</h1>
+    <div class="cards" >
+      <div class="card">
+        <img src="C:\Users\cansu\Desktop\blog\images\html.png" alt="">
+        <h1>HTML</h1>
+        <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\cansu\Desktop\blog\images\css-3.png" alt="">
+        <h1>CSS</h1>
+        <p>Cascading Style Sheets or CSS is a style sheet language used for describing the presentation of a document written in a markup language.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\cansu\Desktop\blog\images\js.png" alt="">
+        <h1>JS</h1>
+        <p>JavaScript or JS is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+      </div>
+    </div>
+    </div>
+
+      <div class="html-part" id="html-part">
+        <h1>HTML Tags</h1>
+        <p> &lt;a&gt;: It is used to link from one page to another.</p>
+        <p> &lt;body&gt;: It contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</p>
+        <p> &lt;br&gt;: It inserts a single line break.</p>
+        <p> &lt;button&gt;: It defines a clickable button.</p>
+        <p> &lt;div&gt;: It defines a division or a section in an HTML document.</p>
+        <p> &lt;em&gt;: It is used to define emphasized text.</p>
+        <p> &lt;footer&gt;: It defines a footer for a document or section.</p>
+        <p> &lt;form&gt;: It is used to create an HTML form for user input.</p>
+        <p> &lt;h1&gt; and &lt;h6&gt;: They are used to define HTML headings. h1 is the biggest, h6 is the smallest heading.</p>
+        <p> &lt;head&gt;: It is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.</p>
+        <p> &lt;header&gt;: It represents a container for introductory content or a set of navigational links.</p>
+        <p> &lt;hr&gt;: It defines a thematic break in an HTML page.</p>
+        <p> &lt;html&gt;: It is the container for all other HTML elements (except for the <!DOCTYPE> tag).</p>
+        <p> &lt;img&gt;: It is used to embed an image in an HTML page.</p>
+        <p> &lt;li&gt;: It defines a list item.</p>
+        <p> &lt;list&gt;: It defines the relationship between the current document and an external resource.</p>
+        <p> &lt;nav&gt;: It defines a set of navigation links.</p>
+        <p> &lt;ol&gt;: It defines an ordered list. An ordered list can be numerical or alphabetical.</p>
+        <p> &lt;p&gt;: It defines a paragraph.</p>
+        <p> &lt;span&gt;: It is an inline container used to mark up a part of a text, or a part of a document.</p>
+        <p> &lt;strong&gt;: It is used to define text with strong importance. The content inside is typically displayed in bold.</p>
+        <p> &lt;style&gt;: It is used to define style information (CSS) for a document.</p>
+        <p> &lt;title&gt;: It defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</p>
+        <p> &lt;ul&gt;: It defines an unordered (bulleted) list.</p>
+        <p> &lt;video&gt;: It is used to embed video content in a document, such as a movie clip or other video streams..</p>
+      </div>
+      <div class="css-part" id="css-part">
+        <h1>CSS Properties</h1>
+        <p>background-color: It specifies the background color of an element.</p>
+        <p>background-image: It specifies one or more background images for an element.</p>
+        <p>background-position: It specifies the position of a background image.</p>
+        <p>background-size: It specifies the size of the background images.</p>
+        <p>border: It sets the width, style, and color for all four sides of an element's border.</p>
+        <p>border-radius: It defines the shape of the border corners of an element.</p>
+        <p>color: It specifies the color of the text of an element.</p>
+        <p>display: It specifies how an element is displayed onscreen.</p>
+        <p>font-family: It defines a list of fonts for element.</p>
+        <p>font-size: It defines the font size for the text.</p>
+        <p>font-style: It defines the font style for the text.</p>
+        <p>font-weight: It specifies the font weight of the text.</p>
+        <p>height: It specifies the height of an element.</p>
+        <p>justify-content: It specifies how flex items are aligned along the main axis of the flex container after any flexible lengths and auto margins have been resolved.</p>
+        <p>list-style: It defines the display style for a list and list elements.</p>
+        <p>margin: It sets the margin on all four sides of the element.</p>
+        <p>margin-bottom: It sets the bottom margin of the element.</p>
+        <p>margin-left: It sets the left margin of the element.</p>
+        <p>margin-right: It sets the right margin of the element.</p>
+        <p>margin-top: It sets the top margin of the element.</p>
+        <p>padding: It sets the padding on all four sides of the element.</p>
+        <p>text-align: It sets the horizontal alignment of inline content.</p>
+        <p>width: It specifies the width of an element.</p>
+      </div>
+      <div class="js-part" id="js-part">
+        <h1>JavaScript Properties</h1>
+        <p>getHours() returns the hour (0 to 23) of a date.</p>
+        <p>getMinutes() returns the minutes (0 to 59) of a date.</p>
+        <p>getSeconds() returns the seconds (0 to 59) of a date.</p>
+        <p>setDate() sets the day of the month of a date.</p>
+        <p>new Date() creates a new date object with the current date and time</p>
+        <p>getFullYear() returns the full year (4 digits) of a date.</p>
+        <p>getMonth() returns the month (0 to 11) of a date.</p>
+        <p>getDate() method returns the day of the month (1 to 31) of a date.</p>
+        <p>toDateString() method returns the date (not the time) of a date object as a string.</p>
+        <p>getDay() method returns the day of the week (0 to 6) of a date.</p>
+        <p>getElementById() method returns an element with a specified value</p>
+        <p>querySelector() method returns the first element that matches a CSS selector.</p>
+        <p>addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target.</p>
+        <p>setInterval() method calls a function at specified intervals (in milliseconds).</p>
+        <p>innerHTML property sets or returns the HTML content (inner HTML) of an element.</p>
+        <p>setMonth() method sets the month of a date object.</p>
+      </div>
+      <div class="about-part" id="about-part">
+        <h1>About Me</h1>
+        <div class="about-container">
+        <p>Hi! I'm Cansu. I'm a senior Electronics and Communication Engineering student at Istanbul Technical University. I am currently doing my internship at Akbank. I like web development and web design as you can see in this blog. </p>
+
+        <div class="about-image">
+          <img src="C:\Users\cansu\Desktop\blog\images\girl.svg">
+        </div>
+        </div>
+      </div>
+      <div class="container-calendar">
+        <h1>Calendar</h1>
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+            <div>Sun</div>
+          </div>
+          <div class="days"></div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+
+  </body>
+</html>
